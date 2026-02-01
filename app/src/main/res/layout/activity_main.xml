@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/listy_city"
-        android:textSize="50sp"
+        android:textSize="25pt"
         android:textStyle="bold"
         android:background="@color/teal"
         android:textColor="@color/white"
@@ -20,13 +20,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="25dp"/>
+        android:layout_marginTop="0dp"/>
 
     <Button
         android:id="@+id/add_city_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/add_city"
+        android:textSize="9pt"
         app:layout_constraintTop_toBottomOf="@id/title_text_view"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/delete_city_button"/>
@@ -36,6 +37,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/delete_city"
+        android:textSize="9pt"
         app:layout_constraintTop_toBottomOf="@id/title_text_view"
         app:layout_constraintStart_toEndOf="@+id/add_city_button"
         app:layout_constraintEnd_toEndOf="parent"/>
